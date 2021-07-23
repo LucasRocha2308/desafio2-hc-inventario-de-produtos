@@ -1,0 +1,49 @@
+.card {
+  width: 180px;
+  height: 250px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #121212;
+  margin-top: 5px;
+  margin-left: 25px;
+  border-radius: 20px;
+  border: 1px solid #0fbf6b;
+}
+
+.card img {
+  height: 120px;
+  width: 120px;
+  border: 2px solid #0fbf6b;
+}
+
+/* .card img:hover {
+  height: 150px;
+  width: 150px;
+  border: 2px solid #0fbf6b;
+} */
+
+.card p {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.caixa {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  background-color: #0fbf6b;
+  width: 150px;
+  border-radius: 10px;
+  height: 30px;
+}
+
+button:hover {
+  background-color: rgb(15, 191, 107, 0.7);
+}

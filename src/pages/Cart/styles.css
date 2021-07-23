@@ -1,0 +1,20 @@
+.containerCart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.caixaCart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.valores {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
